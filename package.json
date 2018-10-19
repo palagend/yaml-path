@@ -1,0 +1,23 @@
+{
+  "name": "yaml-path",
+  "version": "1.0.0",
+  "description": "Yaml path tool like json-path",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palagend/yaml-path.git"
+  },
+  "keywords": [
+    "yaml-path",
+    "yaml"
+  ],
+  "author": "Grain Stark",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/palagend/yaml-path/issues"
+  },
+  "homepage": "https://github.com/palagend/yaml-path#readme"
+}
