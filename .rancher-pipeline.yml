@@ -1,0 +1,22 @@
+stages:
+- name: prepare
+  steps:
+  - runScriptConfig:
+      image: golang:latest
+      shellScript: go version
+- name: build
+  steps:
+  - runScriptConfig:
+      image: java:8
+      shellScript: java -version
+- name: install
+  steps:
+  - runScriptConfig:
+      image: node:latest
+      shellScript: node --version
+- name: report
+  steps:
+  - runScriptConfig:
+      image: python:latest
+      shellScript: python -V
+timeout: 60
